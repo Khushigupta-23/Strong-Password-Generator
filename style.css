@@ -1,0 +1,141 @@
+body{
+    background: linear-gradient(to right, #f8e1f4, #c7a7e5); /* Soft Pink to Lavender Gradient */
+
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;  /* Bold */
+    font-size: 36px;
+    color: #333333;
+    text-align: center;
+    text-decoration: underline wavy;
+    text-underline-offset: 4px; /* 4px gap b/w text or underline */
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;  /* Regular weight */
+    font-size: 28px;
+    color: #333333;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;  /* Regular weight */
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.6;  /* Helps with readability */
+}
+.container{
+    height: 350px;
+    width: 700px;
+    border: 2px solid black;
+    margin:auto;
+}
+#generate-btn {
+    background-color: #a2d5f2; /* Button background color */
+    color: #333333; /* Text color */
+    font-family: 'Roboto', sans-serif; /* Font */
+    font-size: 18px; /* Font size */
+    margin: 15px;
+    padding: 12px 24px; /* Padding around text */
+    border: 2px solid black;
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+#generate-btn:hover {
+    background-color: #c7a7e5; /* Background color on hover */
+}
+
+.btn{
+    display: flex;                /* Enable Flexbox */
+    justify-content: center;      /* Horizontally center the button */
+    align-items: center;          /* Vertically center the button */
+}
+
+
+/* password.html styling */
+
+.container1{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+#password {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #a2d5f2; /* Light baby blue */
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+button:hover {
+    background-color: #c7a7e5; /* Lavender on hover */
+}
+#copy-btn {
+    background-color: #f2cccc; /* Light blush pink for copy button */
+}
+/* Checkbox Styling */
+.rules {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.rules label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.rules input {
+    margin-right: 10px;
+}
+
+/* Password Strength Indicator */
+#strength-indicator {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    #password {
+        font-size: 16px;
+    }
+}
