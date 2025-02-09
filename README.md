@@ -29,4 +29,7 @@ SecurePass is a **simple, secure, and efficient password generator** that helps 
 2. Click the **"Generate Password"** button.  
 3. Copy your password with a single click and use it securely.
 
+## Live Demo
+https://khushigupta-23.github.io/Strong-Password-Generator/
+
 ## 💻Happy Coding 
